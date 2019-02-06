@@ -7,47 +7,49 @@
 </head>
 <body>
   <header class="main-header">
-    <nav class="main-navigation">
-      <div class="main-navigation__container">
-        <ul class="main-navigation__list">
-          <li class="main-navigation__item  main-navigation__item--support">
-            <a class="main-navigation__link  main-navigation__link--support" href="#" aria-label="link to page Support">Support</a>
-          </li>
-          <li class="main-navigation__item  main-navigation__item--delivery">
-            <a class="main-navigation__link  main-navigation__link--delivery" href="#" aria-label="link to page Delivery">Delivery</a>
-          </li>
-          <li class="main-navigation__item  main-navigation__item--legal">
-            <a class="main-navigation__link  main-navigation__link--legal" href="#" aria-label="link to page Legal">Legal</a>
-          </li>
-          <li class="main-navigation__item  main-navigation__item--about">
-            <a class="main-navigation__link  main-navigation__link--about" href="#" aria-label="link to page About Us">About Us</a>
-          </li>
-        </ul>
-        <p class="main-header__cart  cart">
-          <span class="cart__sum">$465.00 </span>
-          <span class="cart__count">4 Items</span>
-        </p>
+    <div class="top-bar">
+      <div class="top-bar__container">
+        <nav class="main-navigation">
+          <ul class="main-navigation__list">
+            <li class="main-navigation__item  main-navigation__item--support">
+              <a class="main-navigation__link  main-navigation__link--support" href="#" aria-label="link to page Support">Support</a>
+            </li>
+            <li class="main-navigation__item  main-navigation__item--delivery">
+              <a class="main-navigation__link  main-navigation__link--delivery" href="#" aria-label="link to page Delivery">Delivery</a>
+            </li>
+            <li class="main-navigation__item  main-navigation__item--legal">
+              <a class="main-navigation__link  main-navigation__link--legal" href="#" aria-label="link to page Legal">Legal</a>
+            </li>
+            <li class="main-navigation__item  main-navigation__item--about">
+              <a class="main-navigation__link  main-navigation__link--about" href="#" aria-label="link to page About Us">About Us</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="cart" href="#" aria-label="link to cart">
+          <span class="cart__sum">$465.00</span>
+          <span class="cart__count">4 <span>Items</span></span>
+        </a>
         <div class="user">
           <ul class="user__list">
             <li class="user__item  user__item--login">
               <a class="user__link  user__link--login" href="#" aria-label="link to page Login">Login</a>
             </li>
             <li class="user__item  user__item--register">
-              <a class="user__link  user__link--register" href="#" aria-label="link to page Register">Register</a>
+              <a class="user__link  user__link--register  user__link--active" href="#" aria-label="link to page Register">Register</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
+    </div>
     <section class="category">
       <div class="category__container">
         <h1 class="visually-hidden">Sportshold</h1>
-        <a class="logo" aria-label="link to main page">
-          <img class="logo__img" width="" height="" src="" alt="logo Sportshold">
+        <a class="category__logo" aria-label="main page">
+          <img class="category__logo-img" width="182" height="24" src="img/logo.png" alt="logo Sportshold">
         </a>
         <ul class="category__list">
           <li class="category__item  category__item--home">
-            <a href="#" class="category__link  category__link--home" aria-label="link to page Home">Home</a>
+            <a class="category__link  category__link--home  category__link--active" aria-label="page Home">Home</a>
           </li>
           <li class="category__item  category__item--men">
             <a href="#" class="category__link  category__link--men" aria-label="link to category Men">Men</a>
@@ -73,6 +75,7 @@
   </header>
   <main class="content">
     <section class="promo">
+      <img class="promo__img" width="829" height="732" src="img/promo.png" alt="Nike Air Max">
       <div class="promo__container">
         <span class="promo__cost">From $80.00</span>
         <h2 class="promo__title">Nike Air Max</h2>

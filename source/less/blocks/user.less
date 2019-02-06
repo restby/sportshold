@@ -1,0 +1,35 @@
+.user {
+  width: 165px;
+}
+
+.user__list {
+  .listreset();
+  .flex-beetween();
+}
+
+.user__item {
+  &--login {
+    border-left: 1px solid @color-white-alt;
+  }
+}
+
+.user__link {
+  .reset-link();
+  display: block;
+  color: @color-white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+
+  &--login {
+    width: 74px;
+  }
+
+  &--register {
+    width: 91px;
+  }
+
+  &--active {
+    background-color: @color-red-light;
+  }
+}
