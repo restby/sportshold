@@ -116,19 +116,21 @@
     <section class="catalog">
       <div class="catalog__container">
         <h2 class="visually-hidden">Catalog</h2>
-        <ul class="catalog__sort-list">
-          <li class="catalog__sort-item  catalog__sort-item--new">
-            <button class="catalog__sort-btn  catalog__sort-btn--new" aria-label="sort to new">New</button>
-          </li>
-          <li class="catalog__sort-item  catalog__sort-item--popular">
-            <button class="catalog__sort-btn  catalog__sort-btn--popular" aria-label="sort to popular">Popular</button>
-          </li>
-          <li class="catalog__sort-item  catalog__sort-item--top">
-            <button class="catalog__sort-btn  catalog__sort-btn--top" aria-label="sort to top">Top Picks</button>
-          </li>
-        </ul>
+        <form class="catalog__form" action="https://echo.htmlacademy.ru" method="GET" aria-label="форма сортировки товаров по параметрам">
+          <ul class="catalog__sort-list">
+            <li class="catalog__sort-item  catalog__sort-item--new">
+              <a class="catalog__sort-link  catalog__sort-link--new  catalog__sort-link--active" href="#" aria-label="sort to new">New</a>
+            </li>
+            <li class="catalog__sort-item  catalog__sort-item--popular">
+              <a class="catalog__sort-link  catalog__sort-link--popular" href="#" aria-label="sort to popular">Popular</a>
+            </li>
+            <li class="catalog__sort-item  catalog__sort-item--top">
+              <a class="catalog__sort-link  catalog__sort-link--top" href="#" aria-label="sort to top">Top Picks</a>
+            </li>
+          </ul>
+        </form>
         <ul class="catalog__list">
-          <li class="catalog__item--1">
+          <li class="catalog__item  catalog__item--1">
             <span class="catalog__item-price  catalog__item-price--sales">$45.00</span>
             <span class="catalog__item-price  catalog__item-price--old">$60.00</span>
             <small class="catalog__item-sales">-25%</small>
@@ -137,14 +139,14 @@
             <h3 class="catalog__item-title">Converse Breakpoint Suede Blue</h3>
             <span class="catalog__item-art">#16378271</span>
           </li>
-          <li class="catalog__item--2">
-            <span class="catalog__item-price  catalog__item-price--sales">$55.00</span>
+          <li class="catalog__item  catalog__item--2">
+            <span class="catalog__item-price">$55.00</span>
             <img class="catalog__item-img" width="" height="" src="#" alt="Converse Breakpoint Suede Blue">
             <span class="catalog__item-category">MEN / WOMEN</span>
             <h3 class="catalog__item-title">Converse CT All Star II</h3>
             <span class="catalog__item-art">#16378271</span>
           </li>
-          <li class="catalog__item--3">
+          <li class="catalog__item  catalog__item--3">
             <span class="catalog__item-price  catalog__item-price--sales">$60.00</span>
             <span class="catalog__item-price  catalog__item-price--old">$80.00</span>
             <small class="catalog__item-sales">-25%</small>
@@ -153,21 +155,21 @@
             <h3 class="catalog__item-title">Adidas Pure Boost Chill</h3>
             <span class="catalog__item-art">#16378271</span>
           </li>
-          <li class="catalog__item--4">
-            <span class="catalog__item-price  catalog__item-price--sales">$50.00</span>
+          <li class="catalog__item  catalog__item--4">
+            <span class="catalog__item-price">$50.00</span>
             <img class="catalog__item-img" width="" height="" src="#" alt="Converse Breakpoint Suede Blue">
             <span class="catalog__item-category">MEN</span>
             <h3 class="catalog__item-title">Puma Duplex W Casual</h3>
             <span class="catalog__item-art">#16378271</span>
           </li>
-          <li class="catalog__item--5">
-            <span class="catalog__item-price  catalog__item-price--sales">$90.00</span>
+          <li class="catalog__item  catalog__item--5">
+            <span class="catalog__item-price">$90.00</span>
             <img class="catalog__item-img" width="" height="" src="#" alt="Converse Breakpoint Suede Blue">
             <span class="catalog__item-category">MEN</span>
             <h3 class="catalog__item-title">Adidas Alphabounce 1M</h3>
             <span class="catalog__item-art">#16378271</span>
           </li>
-          <li class="catalog__item--6">
+          <li class="catalog__item  catalog__item--6">
             <span class="catalog__item-price  catalog__item-price--sales">$50.00</span>
             <span class="catalog__item-price  catalog__item-price--old">$100.00</span>
             <small class="catalog__item-sales">-50%</small>
@@ -176,15 +178,15 @@
             <h3 class="catalog__item-title">Asics GEL-Epirus</h3>
             <span class="catalog__item-art">#16378271</span>
           </li>
-          <li class="catalog__item--7">
-            <span class="catalog__item-price  catalog__item-price--sales">$40.00</span>
+          <li class="catalog__item  catalog__item--7">
+            <span class="catalog__item-price">$40.00</span>
             <img class="catalog__item-img" width="" height="" src="#" alt="Converse Breakpoint Suede Blue">
             <span class="catalog__item-category">MEN</span>
             <h3 class="catalog__item-title">Adidas Originals Courtvantage Mesh</h3>
             <span class="catalog__item-art">#16378271</span>
           </li>
-          <li class="catalog__item--8">
-            <span class="catalog__item-price  catalog__item-price--sales">$80.00</span>
+          <li class="catalog__item  catalog__item--8">
+            <span class="catalog__item-price">$80.00</span>
             <img class="catalog__item-img" width="" height="" src="#" alt="Converse Breakpoint Suede Blue">
             <span class="catalog__item-category">MEN</span>
             <h3 class="catalog__item-title">Adidas Originals Climacool 1</h3>
