@@ -1,0 +1,61 @@
+.feedback {
+  background-color: @color-red-light;
+}
+
+.feedback__container {
+  .container();
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 90px;
+  padding-top: 70px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 79px;
+    left: 0;
+    width: 60px;
+    height: 42px;
+    background-image: url("../../img/icon-mail.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+  }
+}
+
+.feedback__col {
+  &--left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+.feedback__slogan {
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.feedback__desc {
+  .reset-ma-pa();
+  margin-bottom: 68px;
+
+}
+
+.feedback__link {
+  display: block;
+  width: 211px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 700;
+  color: @color-white;
+  text-transform: uppercase;
+  background-color: @color-red-alt;
+  .reset-link();
+  padding-top: 11px;
+  padding-left: 30px;
+}
