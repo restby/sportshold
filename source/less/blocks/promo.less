@@ -1,5 +1,13 @@
 .promo {
   background-color: @color-grey;
+}
+
+.promo__container {
+  .container();
+  .flex-start();
+  flex-direction: column;
+  padding-left: 570px;
+  padding-top: 130px;
   position: relative;
 }
 
@@ -10,14 +18,7 @@
   width: 829px;
   height: 732px;
   margin-top: -85px;
-}
-
-.promo__container {
-  .container();
-  display: flex;
-  flex-direction: column;
-  padding-left: 570px;
-  padding-top: 130px;
+  margin-left: -340px;
 }
 
 .promo__cost {
