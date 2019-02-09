@@ -12,18 +12,18 @@
 
 .catalog__sort-list {
   .listreset();
-  margin-left: 329px;
-  margin-bottom: 47px;
+  margin-left: 327px;
+  margin-bottom: 42px;
   .flex-start();
 }
 
 .catalog__sort-item {
   &--new {
-    margin-right: 38px;
+    margin-right: 35px;
   }
 
   &--popular {
-    margin-right: 44px;
+    margin-right: 41px;
   }
 }
 
@@ -59,18 +59,74 @@
     margin-bottom: 0;
   }
 
+  &--1 {
+    & .catalog__item-title {
+      margin-bottom: 1px;
+    }
+
+    & .catalog__item-art {
+      margin-bottom: 22px;
+    }
+  }
+
+  &--2 {
+    & .catalog__item-art {
+      margin-bottom: 23px;
+    }
+  }
+
+  &--3 {
+    & .catalog__item-art {
+      margin-bottom: 22px;
+    }
+  }
+
   &--4 {
     margin-right: 0;
+
+    & .catalog__item-art {
+      margin-bottom: 23px;
+    }
+  }
+
+  &--5 {
+    & .catalog__item-art {
+      margin-bottom: 23px;
+    }
+  }
+
+  &--6 {
+    & .catalog__item-art {
+      margin-bottom: 22px;
+    }
+  }
+
+  &--7 {
+    & .catalog__item-category {
+      margin-top: -3px;
+    }
+
+    & .catalog__item-art {
+      margin-bottom: 23px;
+    }
   }
 
   &--8 {
     margin-right: 0;
+
+    & .catalog__item-category {
+      margin-top: -3px;
+    }
+
+    & .catalog__item-art {
+      margin-bottom: 23px;
+    }
   }
 }
 
 .catalog__item-price {
   position: absolute;
-  top: 28px;
+  top: 24px;
   left: 28px;
   font-size: 24px;
   color: @color-grey-dark;
@@ -111,14 +167,14 @@
     width: 200px;
     height: 81px;
     margin-top: 80px;
-    margin-bottom: 63px;
+    margin-bottom: 60px;
   }
 
   &--2 {
     width: 199px;
     height: 84px;
     margin-top: 82px;
-    margin-bottom: 84px;
+    margin-bottom: 81px;
   }
 
   &--3 {
@@ -126,28 +182,28 @@
     height: 200px;
     margin-top: 26px;
     margin-left: 3px;
-    margin-bottom: 24px;
+    margin-bottom: 22px;
   }
 
   &--4 {
     width: 200px;
     height: 200px;
     margin-top: 44px;
-    margin-bottom: 6px;
+    margin-bottom: 3px;
   }
 
   &--5 {
     width: 200px;
     height: 200px;
     margin-top: 24px;
-    margin-bottom: 26px;
+    margin-bottom: 23px;
   }
 
   &--6 {
     width: 200px;
     height: 200px;
     margin-top: 24px;
-    margin-bottom: 26px;
+    margin-bottom: 24px;
   }
 
   &--7 {
@@ -176,7 +232,6 @@
   display: block;
   width: 200px;
   .reset-ma-pa();
-  margin-bottom: 5px;
   font-size: 16px;
   font-weight: 300;
   color: @color-grey-dark;
